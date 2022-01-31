@@ -1,0 +1,138 @@
+
+@font-face {
+  font-family: 'Troubleside';
+  src: url('../fonts/Troubleside.ttf');
+  font-weight: 900;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper{
+  min-height: 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; /*Указываем, как блоки будут располагаться в flex контейнере. column- значит вертикально сверху вниз*/
+  padding: 10px;
+}
+.hystory_container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+}
+
+.main_container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.h1_history{
+  position: relative;
+  text-align: center;
+  font-family: 'Troubleside';
+  font-size: 120px;
+  line-height: 160%;
+  color: #46747C;
+  z-index: 2;
+  padding: 0 15px;
+  padding-bottom: 70px;
+}
+.hystory_img{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+.info_block{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+._container{
+  display: flex;
+  width: 50%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.message_container{
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.img{
+  position: absolute;
+  width: 70%;
+  height: 70%;
+  bottom: 0;
+  left: 0;
+}
+
+
+@media (max-width: 900px) {
+  ._container{
+    width: 100%;
+  } 
+}
+
+
+/* ----------------------------------------------------------History------------------------------------------------------------- */
+/* .hystory_container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+}
+
+.main_container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.h1_history{
+  position: relative;
+  text-align: center;
+  font-family: 'Troubleside';
+  font-size: 120px;
+  line-height: 160%;
+  color: #46747C;
+  z-index: 2;
+  padding: 0 15px;
+  padding-bottom: 70px;
+}
+.hystory_img{
+  position: absolute;
+  width: 100%;
+  height: 90%;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+/* ------------------------------------------------------Message--------------------------------------------------------------------- */
+.message_container_img{
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 100%;
+} */ */
