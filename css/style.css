@@ -40,14 +40,13 @@ html, body {
   position: relative;
   text-align: center;
   font-family: 'Troubleside';
-  font-size: 120px;
-  line-height: 160%;
+  font-size: 7vw;
   color: #46747C;
   z-index: 2;
   padding: 0 15px;
-  padding-bottom: 70px;
+  margin: 0 auto;
 }
-.hystory_img{
+.history_img{
   position: absolute;
   width: 100%;
   height: 100%;
@@ -58,81 +57,62 @@ html, body {
 .info_block{
   display: flex;
   flex-direction: row;
-  text-align: center;
+  align-items: center;
   justify-content: center;
   width: 100%;
   height: 100%;
 }
-._container{
+.message_container{
+  height: 100%;
+  width: 50%;
+  position: relative;
   display: flex;
+}
+.img{
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
+.container{
+  display: flex;
+  flex-wrap: wrap;
   width: 50%;
   height: 100%;
   align-items: center;
   justify-content: center;
   position: relative;
+  padding: 0 20px;
 }
-.message_container{
-  height: 100%;
+.timer_container{
   width: 100%;
-  position: relative;
+  margin-top: 20%;
 }
-
-.img{
-  position: absolute;
-  width: 70%;
-  height: 70%;
-  bottom: 0;
-  left: 0;
-}
-
-
-@media (max-width: 900px) {
-  ._container{
-    width: 100%;
-  } 
-}
-
-
-/* ----------------------------------------------------------History------------------------------------------------------------- */
-/* .hystory_container{
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.timer_table{
   width: 100%;
-  height: 100%;
-  min-height: 100%;
-}
-
-.main_container{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-}
-
-.h1_history{
-  position: relative;
+  border-spacing: 20px 0;
   text-align: center;
-  font-family: 'Troubleside';
-  font-size: 120px;
-  line-height: 160%;
-  color: #46747C;
-  z-index: 2;
-  padding: 0 15px;
-  padding-bottom: 70px;
 }
-.hystory_img{
-  position: absolute;
-  width: 100%;
-  height: 90%;
-  top: 0;
-  left: 0;
-  object-fit: cover;
+td{
+  width: 20%;
 }
-/* ------------------------------------------------------Message--------------------------------------------------------------------- */
-.message_container_img{
-  display: block;
-  position: relative;
-  width: 100%;
-  height: 100%;
-} */ */
+.num td{
+  font-size: 5vw;
+  background-color: #F0D8D5;
+  color: #323347;
+  border-style: solid #F0D8D5;
+  border-radius: 10px;
+}
+.info{
+  font-size: 2vw;
+  height: 100px;
+}
+.text_description{
+  font-family: 'Amavickfont';
+  font-size: 3vw;
+  margin: 0;
+}
+.small_text{
+font-family: 'Amavickfont';
+font-size: 30px;
+}
