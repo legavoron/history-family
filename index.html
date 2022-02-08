@@ -16,13 +16,39 @@
 
         <!-- ----------------------------------------------Message--------------------------------------- -->
 
-        <div class="info_block ">
-            <div class="message_container">
+        <div class="info_block" id="info_block_message">
+            <div class="half_container" id="half_container_message">
                 <img src="./images/message/message.svg" alt="background" class="img" id="img_message">
             </div>
-            <div class="container">
+            <div class="container" id="container_message">
                 <div class="timer_container">
                     <table id="table_message" class="timer_table">
+                        <tr class="num">
+                            <td id="days_num_dating">0</td>
+                            <td id="hours_num_dating">0</td>
+                            <td id="minuts_num_dating">0</td>
+                            <td id="seconds_num_dating">0</td>
+                        </tr>
+                        <tr class="info">
+                            <td>Дней</td>
+                            <td>Часов</td>
+                            <td>Минут</td>
+                            <td>Секунд</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="description_container">
+                    <p class="text_description">прошло с тех пор, как было <br>отправлено главное <br>сообщение в нашей жизни</p>
+                    <p class="small_text">(03 июля 2016г.)</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- ----------------------------------------------- dating ---------------------------------------------- -->
+        <div class="info_block" id="info_block_dating">
+            <div class="container" id="container_dating">
+                <div class="timer_container">
+                    <table id="table_dating" class="timer_table">
                         <tr class="num">
                             <td id="days_num">0</td>
                             <td id="hours_num">0</td>
@@ -38,10 +64,45 @@
                     </table>
                 </div>
                 <div class="description_container">
-                    <p class="text_description">прошло с тех пор, как было <br>отправлено главное <br>сообщение в нашей жизни</p>
-                    <p class="small_text">(03 июля 2016г.)</p>
+                    <p class="text_description">прошло с тех пор, как мы <br>впервые увидели друг друга</p>
+                    <p class="small_text">(06 июля 2016г.)</p>
                 </div>
+            </div>
+            <div class="half_container" id="half_container_dating">
+                <img src="./images/dating/dating.svg" alt="background" class="img" id="img_dating">
+            </div>
         </div>
+
+        <!-- ------------------------------------------------- kiss -------------------------------------------- -->
+        <div class="info_block" id="info_block_kiss">
+            <div class="half_container" id="half_container_kiss">
+                <img src="./images/kiss/kiss.svg" alt="background" class="img" id="img_kiss">
+            </div>
+            <div class="container" id="container_kiss">
+                <div class="timer_container">
+                    <table id="table_message" class="timer_table">
+                        <tr class="num">
+                            <td id="days_num_kiss">0</td>
+                            <td id="hours_num_kis">0</td>
+                            <td id="minuts_num_kiss">0</td>
+                            <td id="seconds_num_kiss">0</td>
+                        </tr>
+                        <tr class="info">
+                            <td>Дней</td>
+                            <td>Часов</td>
+                            <td>Минут</td>
+                            <td>Секунд</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="description_container">
+                    <p class="text_description">столько времени назад <br>мы впервые поцеловались</p>
+                    <p class="small_text">(08 июля 2016г.)</p>
+                </div>
+            </div>
+        </div>
+
+
     </div>
     <script src="./js/app.js" type="text/javascript"></script>
 </body>
