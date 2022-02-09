@@ -1,4 +1,24 @@
+a{
+  text-decoration: none;
+}
 
+ul,
+ol,
+li{
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+/* Reset standard settings */
 @font-face {
   font-family: 'Troubleside';
   src: url('../fonts/Troubleside.ttf');
@@ -168,7 +188,7 @@ font-size: 30px;
     height: 8vh;
   }
   .text_description{
-    font-size: 20px;
+    font-size: 24px;
   }
   .img{
     width: 70%;
@@ -177,6 +197,9 @@ font-size: 30px;
   .timer_table{
     border-spacing: 10px 0;
   }
+  .small_text{
+    font-size: 5vw;
+    }
 }
 p{
   text-align: center;
@@ -404,30 +427,38 @@ td{
 .buttons{
   width: auto;
 }
+
+
 @media(max-width: 500px) {
   .cats_container{
     width: 84%;
     align-items: center;
     justify-content: center;
-    flex-direction: row;
+    flex-direction: column;
+  }
+  #info_block_cats{
+    height: 200%;
   }
   .one_cat_container{
-    height: 40%;
+    height: 100%;
   }
   .one_cat_text{
     height: 20%;
   }
   #p_cats{
-    font-size: 20px;
+    font-size: 24px;
     margin: 10px 0;
   }
   .text_cat{
-    margin: 10px;
-    font-size: 16px;
+    margin: 5px;
+    font-size: 5vw;
+  }
+  #final_cats_text{
+    margin-bottom: 10px;
   }
   .slider_cat_container{
-    width: 210px;
-    height: 150px;
+    width: 305px;
+    height: 305px;
     margin: 0;
     padding: 0;
   }
@@ -456,27 +487,26 @@ td{
   .timer_cats_description{
     display: flex;
     justify-content: center;
-    align-items: center;
     width: 100%;
+    margin: 0;
+    padding-top: 10px;
   }
   .timer_table_cats{
     width: 100%;
     border-spacing: 10px 10px;
-    padding-top: 10px;
   }
   .num_cats{
     margin-bottom: 5px;
   }
   .num_cats td{
-    height: 34px;
-    font-size: 16px;
+    height: 60px;
+    font-size: 20px;
     border-radius: 5px;
   }
   .info_cats td{
     font-size: 14px;
     height: 0px;
   }
-
   .slider_cats .next_cats_1{
     padding-right: 5px;
   }
