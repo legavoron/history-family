@@ -347,11 +347,6 @@ p{
     font-size: 14px;
     height: 0px;
   }
-  /* .timer_table_cats{
-    width: 100%;
-    border-spacing: 10px 10px;
-    padding-top: 10px;
-  } */
 }
 .num_cats{
   background-color: #F0D8D5;
@@ -538,9 +533,6 @@ td{
 #timer_container_spain{
   width: 70%;
   margin: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   margin-top: 5%;
 }
 #table_spain{
@@ -548,10 +540,9 @@ td{
 }
 
 @media(max-width: 500px) {
-  #info_block_spain{
-    margin-top: 10vh;
+  #timer_container_spain{
+    width: 94%;
   }
- 
   .slider_event{
     width: 100%;
     height: 80%;
@@ -569,4 +560,43 @@ td{
     width: 84%;
     height: 30%;
   }
+  
+/* ------------------------------------------------ Wedding ----------------------------------- */
+#slider_event_wedding{
+  padding: 0;
+  padding-right: 20px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex-direction: column;
+}
+#timer_container_wedding{
+  width: 70%;
+  margin: 0;
+  margin-top: 10%;
+}
+#table_spain{
+  width: 100%;
+}
+@media(max-width: 500px) {
+  #info_block_wedding{
+    flex-direction: column-reverse;
+  }
+  #timer_container_wedding{
+    width: 94%;
+  }
+  #slider_event_wedding{
+    padding: 0;
+    display: flex;
+    align-items: center;
+  }
+  .info_slider_container{
+    height: 60%;
+    width: 80%;
+  }
+  .description_event{
+    width: 84%;
+    height: 30%;
+  }
+}
 }
