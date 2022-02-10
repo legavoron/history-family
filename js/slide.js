@@ -15,6 +15,7 @@ function showSlides(classImage, next, prew, addres ,sumslides) {
 
         image.src = `./images/${addres}/${index}.jpg`
     });
+    
     prewBtn.addEventListener('click', ()=> {
         index--;
 
