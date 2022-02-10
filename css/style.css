@@ -96,6 +96,7 @@ html, body {
 }
 .fon_img_absolute{
   position: absolute;
+  opacity: 30%;
 }
 .half_container{
   height: 100%;
@@ -240,8 +241,8 @@ p{
   justify-content: center;
 }
 .slider_cat_container{
-  width: 90%;
-  height: 50%;
+  width: 100%;
+  height: 60%;
 }
 #p_cats{
   margin-bottom: 30px;
@@ -316,7 +317,8 @@ td{
   text-align: center;
 }
 .one_cat_text{
-  padding-bottom: 228px;
+  padding: 10px;
+  padding-bottom: 18vw;
 }
 .cat_img {
   object-fit: cover;
@@ -536,6 +538,7 @@ td{
   .description_event{
     width: 84%;
     height: 30%;
+    padding-top: 0px;
   }
   .small_text{
     font-size: 5vw;
@@ -580,11 +583,6 @@ td{
   #info_slider_container_wedding{
     height: 60%;
     width: 100%;
-  }
-  .description_event{
-    width: 84%;
-    height: 30%;
-    padding-top: 20px;
   }
 } 
 
@@ -786,6 +784,9 @@ margin-top: 50px;
   }
 } 
 @media(max-width: 500px) {
+  .fon_img_absolute{
+    opacity: 70%;
+  }
   #fon_1{
     right: -50px;
     top: -20px;
@@ -841,21 +842,22 @@ margin-top: 50px;
 } 
 
 #fon_5{
+  width: 30%;
   right: -32px;
-  top: -125px;
+  top: -10px;
   opacity: 50%;
 }
 @media(max-width: 500px) {
   #fon_5{
     width: 40%; 
-    right: -16px;
+    right: -200px;
     top: -86px; 
   }
 }
 
 #fon_6{
-  left: 0;
-  bottom: -270px;
+  left: -100px;
+  bottom: -300px;
   width: 80%;
   height: 50%;
 }
@@ -863,7 +865,7 @@ margin-top: 50px;
   #fon_6{
     width: 150%;
     height: 20%;
-    bottom: 600px;
+    bottom: 765px;
   }
 }
 
