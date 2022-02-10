@@ -146,12 +146,6 @@ td{
 font-family: 'Amavickfont';
 font-size: 30px;
 }
-@media(max-width: 1000px) {
-  .info{
-    font-size: 3vw;
-    height: 8vh;
-  }
-}
 @media(max-width: 800px) {
   .timer_table{
     border-spacing: 5px 0;
@@ -271,7 +265,7 @@ p{
   border-radius: 12px;
 }
 .timer_cats_description{
-  margin-top: 20%;
+  margin-top: 20px;
   width: 100%;
 }
 .timer_cats_container{
@@ -444,7 +438,7 @@ td{
   .timer_table_cats{
     width: 100%;
     border-spacing: 10px 10px;
-    padding-top: 20px;
+    padding-top: 15px;
   }
   .num_cats{
     margin-bottom: 5px;
@@ -461,29 +455,30 @@ td{
 }
 
 /* ------------------------------------- Spain ------------------------------------------------ */
-
-.slider_event{
-  height: 100%;
-  width: 60%;
-  padding-left: 20px;
+.slider_event {
+  width: 50%;
+  height: 80%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0;
+  padding: 20px;
 }
 .description_event{
+  width: 50%;
   height: 100%;
-  width: 40%;
-  padding: 10px;
+  padding: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .info_slider_container{
-  width: 70%;
+  height: 90%;
+  width: 80%;
   position: relative;
 }
-#info_slider_container_spain{
-  height: 60%;
-  
-}
-.item_spain{
+.item_spain {
   width: 100%;
   height: 100%;
 }
@@ -494,12 +489,20 @@ td{
   height: 100%;
 }
 #timer_container_spain{
-  width: 70%;
+  width: 80%;
   margin: 0;
-  margin-top: 5%;
+  margin-top: 20px;
 }
-#table_spain{
-  width: 100%;
+@media(max-width: 900px) {
+  .slider_event {
+    width: 80%;
+  }
+  .description_event{
+    width: 20%;
+  }
+  .small_text{
+    font-size: 2.5vw;
+  }
 }
 
 @media(max-width: 500px) {
@@ -510,6 +513,7 @@ td{
   }
   #timer_container_spain{
     width: 100%;
+    margin-top: 20px;
   }
   .slider_event{
     width: 100%;
@@ -527,49 +531,55 @@ td{
   .description_event{
     width: 84%;
     height: 30%;
+    padding-top: 20px;
   }
+  .small_text{
+    font-size: 5vw;
+    }
 } 
 /* ------------------------------------------------ Wedding ----------------------------------- */
 #slider_event_wedding{
-  padding: 0;
-  margin-top: 50px;
-  padding-right: 20px;
-  display: flex;
   align-items: flex-end;
-  justify-content: center;
-  flex-direction: column;
+}
+.item_wedding {
+  width: 100%;
+  height: 100%;
 }
 #timer_container_wedding{
-  width: 70%;
+  width: 80%;
   margin: 0;
   margin-top: 20px;
 }
 @media(max-width: 500px) {
   #info_block_wedding{
-    flex-direction: column-reverse;
     height: 100vh;
     margin: 15vw;
+    margin-top: 20vw;
+    flex-direction: column-reverse;
   }
   #timer_container_wedding{
-    width: 94%;
     width: 100%;
-    padding-top: 4vw;
+    margin-top: 20px;
   }
-  #slider_event_wedding{
-    padding: 0;
+  .slider_event{
+    width: 100%;
+    height: 80%;
     display: flex;
     align-items: center;
-    margin: 0;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0;
   }
   #info_slider_container_wedding{
-    /* height: 60%; */
+    height: 60%;
     width: 100%;
   }
   .description_event{
     width: 84%;
-    height: 20%;
+    height: 30%;
+    padding-top: 20px;
   }
-}
+} 
 
 
 /* ---------------------------------------- Travel --------------------------------- */
@@ -666,3 +676,86 @@ margin-top: 50px;
     width: 100%;
   }
 }
+/* ------------------------------------------------------------ New Year ----------------------------------- */
+#slider_event_ny{
+  align-items: flex-end;
+}
+.item_ny {
+  width: 100%;
+  height: 100%;
+}
+#timer_container_ny{
+  width: 80%;
+  margin: 0;
+  margin-top: 20px;
+}
+@media(max-width: 500px) {
+  #info_block_ny{
+    height: 100vh;
+    margin: 15vw;
+    margin-top: 20vw;
+    flex-direction: column-reverse;
+  }
+  #timer_container_ny{
+    width: 100%;
+    margin-top: 20px;
+  }
+  #info_slider_container_ny{
+    height: 60%;
+    width: 100%;
+  }
+} 
+
+/* ------------------------------------------------------------ Last -------------------------------- */
+.last_container{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 50px;
+}
+.last_foto{
+  width: 100%;
+  height: 80%;
+}
+.last_text{
+  width: 100%;
+  padding-top: 20px;
+}
+#info_slider_container_last{
+  width: 100%;
+  height: 80%;
+  position: relative;
+}
+.item_last{
+  width: 100%;
+  height: 100%;
+}
+@media(max-width: 900px) {
+  .last_container{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 50px;
+  }
+} 
+@media(max-width: 500px) {
+  .last_container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 50px;
+  }
+  .last_text{
+    width: 90%;
+    
+  }
+} 

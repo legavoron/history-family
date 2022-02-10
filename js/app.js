@@ -526,17 +526,17 @@ let slideIndex_ny = 1;
 showSlides_ny(slideIndex_ny);
 
 /* Функция увеличивает индекс на 1, показывает следующй слайд*/
-function plusSlide_wedding() {
+function plusSlide_ny() {
     showSlides_ny(slideIndex_ny += 1);
 }
 
 /* Функция уменьшяет индекс на 1, показывает предыдущий слайд*/
-function minusSlide_wedding() {
+function minusSlide_ny() {
     showSlides_ny(slideIndex_ny -= 1);  
 }
 
 /* Устанавливает текущий слайд */
-function currentSlide_wedding(n) {
+function currentSlide_ny(n) {
     showSlides_ny(slideIndex_ny = n);
 }
 
@@ -586,7 +586,7 @@ function currentSlide(n) {
 /* Основная функция слайдера */
 function showSlides(n) {
     let i;
-    let slides = document.getElementsByClassName("item");
+    let slides = document.getElementsByClassName("item_last");
     // let dots = document.getElementsByClassName("slider-dots_item");// Кружочки
     if (n > slides.length) {
       slideIndex = 1
