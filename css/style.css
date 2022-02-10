@@ -382,7 +382,7 @@ td{
     flex-direction: column;
   }
   #info_block_cats{
-    height: 100%;
+    height: 150vh;
     margin-top: 50px;
   }
   .one_cat_container{
@@ -476,9 +476,12 @@ td{
   justify-content: center;
 }
 .info_slider_container{
-  height: 60%;
   width: 70%;
   position: relative;
+}
+#info_slider_container_spain{
+  height: 60%;
+  
 }
 .item_spain{
   width: 100%;
@@ -500,8 +503,10 @@ td{
 }
 
 @media(max-width: 500px) {
-  .info_block_spain{
-    margin-top: 50px;
+  #info_block_spain{
+    height: 100vh;
+    margin: 15vw;
+    margin-top: 20vw;
   }
   #timer_container_spain{
     width: 100%;
@@ -537,17 +542,18 @@ td{
 #timer_container_wedding{
   width: 70%;
   margin: 0;
-  margin-top: 10%;
-}
-#table_spain{
-  width: 100%;
+  margin-top: 20px;
 }
 @media(max-width: 500px) {
   #info_block_wedding{
     flex-direction: column-reverse;
+    height: 100vh;
+    margin: 15vw;
   }
   #timer_container_wedding{
+    width: 94%;
     width: 100%;
+    padding-top: 4vw;
   }
   #slider_event_wedding{
     padding: 0;
@@ -556,14 +562,15 @@ td{
     margin: 0;
   }
   #info_slider_container_wedding{
-    height: 60%;
+    /* height: 60%; */
     width: 100%;
   }
   .description_event{
     width: 84%;
-    height: 30%;
+    height: 20%;
   }
 }
+
 
 /* ---------------------------------------- Travel --------------------------------- */
 #info_block_travel{
