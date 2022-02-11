@@ -31,7 +31,7 @@ showSlides('.soya_img', '#next_soya_btn', '#prew_soya_btn', 'soya', 5);
 showSlides('.iva_img', '#next_iva_btn', '#prew_iva_btn', 'iva', 4);
 showSlides('.spain_img', '#next_spain_btn', '#prew_spain_btn', 'spain', 6);
 showSlides('.wedding_img', '#next_wedding_btn', '#prew_wedding_btn', 'wedding', 14);
-showSlides('.eu_img', '#next_eu_btn', '#prew_eu_btn', 'travel/europe', 5);
+showSlides('.eu_img', '#next_eu_btn', '#prew_eu_btn', 'travel/europe', 4);
 showSlides('.ru_img', '#next_ru_btn', '#prew_ru_btn', 'travel/russia', 5);
 showSlides('.uk_img', '#next_uk_btn', '#prew_uk_btn', 'travel/ukraine', 4);
 showSlides('.ny_img', '#next_ny_btn', '#prew_ny_btn', 'ny', 9);
