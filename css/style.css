@@ -794,7 +794,6 @@ margin-top: 50px;
     height: 10vh;
   }
 } 
-
 #fon_2{
   left: -10px;
   bottom: -200px;
@@ -814,7 +813,6 @@ margin-top: 50px;
     height: 10%;
   }
 } 
-
 #fon_3{
   left: -20px;
   bottom: -175px;
@@ -827,7 +825,6 @@ margin-top: 50px;
     bottom: -300px;
   }
 } 
-
 #fon_4{
   right: -100px;
   top: 560px;
@@ -840,7 +837,6 @@ margin-top: 50px;
     right: -6px;
   }
 } 
-
 #fon_5{
   width: 30%;
   right: -32px;
@@ -854,7 +850,6 @@ margin-top: 50px;
     top: -86px; 
   }
 }
-
 #fon_6{
   left: -100px;
   bottom: -300px;
@@ -868,7 +863,6 @@ margin-top: 50px;
     bottom: 765px;
   }
 }
-
 #fon_7{
   left: 0;
   bottom: 0px;
@@ -911,6 +905,9 @@ margin-top: 50px;
 /* --------------------------------------------- Mobile hotizontal --------------------------------- */
 
 @media(max-height:500px) {
+  .h1_history{
+    font-size: 7.5vw;
+  }
   .cat_img {
     height: 100%;
   }
@@ -932,5 +929,27 @@ margin-top: 50px;
   }
   #info_block_last{
     height: 100%;
+  }
+  #fon_1{
+    width: 20%;
+  }
+  #fon_5{
+    top: 40px;
+  }
+  #fon_6{
+    bottom: -247px;
+  }
+  #fon_7{
+    width: 50%;
+    bottom: -70px;
+    opacity: 100%;
+    left: -20px;
+  }
+  #fon_8{
+    width: 20%;
+  }
+  #fon_9{
+    width: 20%;
+    top: 290px;
   }
 }
